@@ -1,6 +1,5 @@
 #outras formas de resolver a questão 4
 
-
 #login = "admin"
 #senha = 123
 
@@ -22,3 +21,11 @@
 #    print('Olá admin, seja bem-vindo!')
 #else:
 #   print('Login ou senha incorretos, tente novamente.')
+
+#⚡ linhas de código opcionais que eu tinha usado:
+
+# elif login == "admin" and senha != "123":
+#     print('Login ou senha incorretos, tente novamente.')
+
+# elif login != "admin" and senha == "123":
+#     print('Login ou senha incorretos, tente novamente.')
